@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.886);
+    cursor: wait;
+  
+
+
+    
+}
+.heading{
+    color: rgb(210, 182, 0);
+    font-size: 35px;
+padding: 10px;
+    
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 143, 39);
+    padding: 20px;
+    cursor: pointer;
+
+    
+
+}
+.list li{
+    list-style: none;
+    margin-right: 50px;
+    border-color: red;
+    border-radius: 20%;
+
+    
+    
+}
+.list li:hover{
+    border-style: double;
+    color:greenyellow;
+    
+    
+
+}
+.search input{
+    color:white;
+    outline: none;
+    padding: 14px;
+    background-color:transparent;
+    font-size: 27px;
+    border-bottom: none;
+   
+    
+}
+.para{
+    background-image: url(a.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.para1{
+    color:white;
+    text-align: center;
+    font-size: 5vh;
+
+}
+.link{
+    margin-top: 2%;
+    font-size: 30px;
+    color: rgb(247, 157, 14);
+
+}
+.select1 {
+        font-size:30px;
+        color: rgb(247, 158, 16);
+        border: 2px;
+        border-radius: 100px;
+        background-color: transparent;
+        width: 33vh;
+        text-align: center;
+        border-style: double;
+        
+
+}
+.select1:hover{
+    border-bottom: 2px;
+    color:black;
+    background-color: red;
+    border-style: dotted;
+}
+
+.select2{
+    font-size:30px;
+    color: rgb(241, 158, 25);
+    border: 2px;
+    border-radius: 88px;
+    background-color: transparent;
+    width: 35vh;
+    text-align: center;
+    
+    border-style: double;
+    height:37px;
+    
+}
+.select2:hover{
+    color:black;
+    background-color: red;
+    border-style: dotted;
+}
+.btn button{
+    margin-left: 44%;
+    color: rgb(231, 161, 31);
+    background-color: black;
+    font-size: 40px;
+    border-radius: 15px;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+
+}
+.btn button:hover{
+    background-color:black;
+    color:red ;
+    transition: all 1s;
+    
+    font-size: 48px;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin:0 auto;
+    width: 99.3%;
+    cursor: pointer;
+}
